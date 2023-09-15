@@ -1,28 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added readme" />
+    <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added readme">
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/ApiReqFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/ApiReqHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/Arthematic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/LambdaExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/AdvancedConcepts/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/DataBaseConnectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/Desktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/LaptopScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/OopRevision/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2VPw9CIdOGLM4wp22co85apepPZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ApiReqHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab1.AdvancedConcepts.ApiReqHandler" />
+      <module name="DesignPattrens" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab1.AdvancedConcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiReqHandler" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694750875254</updated>
-      <workItem from="1694750877869" duration="696000" />
+      <workItem from="1694750877869" duration="7982000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1694751519602</created>
@@ -40,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694751519602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added readme">
+      <created>1694751594412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694751594412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,6 +119,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added readme" />
     <option name="LAST_COMMIT_MESSAGE" value="added readme" />
   </component>
