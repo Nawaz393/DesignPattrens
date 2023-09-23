@@ -37,7 +37,7 @@ Clone the repository and navigate to the specific pattern directory you want to 
 Example:
 
 ```bash
-git clone 
+git clone git@github.com:Nawaz393/DesignPattrens.git
 
 ```
 
