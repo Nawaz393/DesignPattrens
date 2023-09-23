@@ -26,6 +26,7 @@ In software engineering, design patterns are recurring solutions to common probl
 Explore the following design patterns implemented in Java:
 
 1. [Lab 1](/src/Lab1): This lab consist OOPs Concepts Revesion and Some advanced java topics like  (Streams,lambda,Record etc).
+1. [Lab 2](/src/Lab2): This lab consist the implementation of observer and singleton design patterns with best examples  .
 
 
 (Add more patterns and links as needed)
