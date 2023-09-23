@@ -12,7 +12,7 @@ Explore and learn about various design patterns implemented in Java. This reposi
 ## Table of Contents
 
 - [About](#about)
-- [Labs](#design-patterns)
+- [Labs](#labs)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -24,6 +24,7 @@ In software engineering, design patterns are recurring solutions to common probl
 ## 🧩 Design Patterns
 
 Explore the following design patterns implemented in Java:
+# Labs
 
 1. [Lab 1](/src/Lab1): This lab consist OOPs Concepts Revesion and Some advanced java topics like  (Streams,lambda,Record etc).
 1. [Lab 2](/src/Lab2): This lab consist the implementation of observer and singleton design patterns with best examples  .
