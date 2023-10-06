@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added observer and singleton">
-      <change afterPath="$PROJECT_DIR$/src/Lab2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,8 @@
       <updated>1694750875254</updated>
       <workItem from="1694750877869" duration="11199000" />
       <workItem from="1695485250553" duration="331000" />
-      <workItem from="1695485594950" duration="4754000" />
+      <workItem from="1695485594950" duration="6262000" />
+      <workItem from="1696564036920" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1694751519602</created>
