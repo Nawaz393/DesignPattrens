@@ -1,7 +1,16 @@
 package GOF.Lab4.Iterator;
 
 public class NameRepository implements Container {
-   public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
+   public Student students[] = {
+
+         new Student("Robert", "10"),
+         new Student("John", "20"),
+         new Student("Laura", "30"),
+         new Student("Diana", "40"),
+         new Student("Mike", "50")
+   };
+
+ 
 
    @Override
    public Iterator getIterator() {
@@ -14,8 +23,8 @@ public class NameRepository implements Container {
 
       @Override
       public boolean hasNext() {
-      
-         if(index < names.length){
+
+         if (index < students.length) {
             return true;
          }
          return false;
@@ -23,9 +32,9 @@ public class NameRepository implements Container {
 
       @Override
       public Object next() {
-      
-         if(this.hasNext()){
-            return names[index++];
+
+         if (this.hasNext()) {
+            return students[index++];
          }
          return null;
       }
@@ -33,25 +42,23 @@ public class NameRepository implements Container {
       @Override
       public Object previous() {
 
-         if(names.length>0){
-            return names[--index];
+         if (students.length > 0) {
+            return students[--index];
          }
          return null;
       }
 
       @Override
       public Object moveToFirst() {
-        index = 0;
-        return names[index];
+         index = 0;
+         return students[index];
       }
 
       @Override
       public Object moveToLast() {
-         index = names.length-1;
-         return names[index];
+         index = students.length - 1;
+         return students[index];
       }
-      
-      
-      
+
    }
 }
