@@ -9,13 +9,14 @@ public abstract class Network {
     /**
      * Publish the data to whatever network.
      */
-    public boolean post(String message) {
+    public boolean post(Message message) {
         // Authenticate before posting. Every network uses a different
         // authentication method.
         if (logIn(this.userName, this.password)) {
             // Send the post data.
-            boolean result =  sendData(message.getBytes());
-            logOut();
+
+            
+            boolean result =  sendData(message.toString().getBytes());
             return result;
         }
         return false;
