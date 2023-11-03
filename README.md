@@ -35,6 +35,8 @@ Explore the following design patterns implemented in Java:
 
 1. [Lab 5](/src/GOF/Lab5): This lab consist the implementation of visitor design patterns with best example. 
 
+1. [Lab 6](/src/GOF/Lab6): This lab consist the implementation of Strategy design patterns with best example. 
+
 ## 🚀 Usage
 
 Clone the repository and navigate to the specific pattern directory you want to explore. Each pattern folder contains a comprehensive Java implementation with detailed explanations.
