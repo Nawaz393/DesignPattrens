@@ -12,7 +12,7 @@ public class MealBuilder {
    public Meal prepareNonVegMeal() {
       Meal meal = new Meal();
       meal.addItem(new ChickenBurger());
-      meal.addItem(new Pepsi());
+      meal.addItem(new DietCoke());
       meal.addItem(new SweetDecorater(new CreamDecorater(new Tea())));
       return meal;
    }
