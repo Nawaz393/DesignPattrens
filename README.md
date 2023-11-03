@@ -27,10 +27,13 @@ Explore the following design patterns implemented in Java:
 # Labs
 
 1. [Lab 1](/src/Lab1): This lab consist OOPs Concepts Revesion and Some advanced java topics like  (Streams,lambda,Record etc).
-1. [Lab 2](/src/Lab2): This lab consist the implementation of observer and singleton design patterns with best examples  .
+1. [Lab 2](/src/Lab2): This lab consist the implementation of observer and singleton design patterns with best examples.
 
+1. [Lab 3](/src/Lab3): This lab consist the implementation of chain of responsibility and decorater design patterns with best examples. 
 
-(Add more patterns and links as needed)
+1. [Lab 4](/src/Lab4): This lab consist the implementation of iterator and  Template Method design patterns with best  examples.
+
+1. [Lab 5](/src/Lab5): This lab consist the implementation of visitor design patterns with best example. 
 
 ## 🚀 Usage
 
