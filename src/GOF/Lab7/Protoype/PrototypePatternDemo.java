@@ -4,13 +4,18 @@ public class PrototypePatternDemo {
    public static void main(String[] args) {
       ShapeCache.loadCache();
 
-      Shape clonedShape = (Shape) ShapeCache.getShape("1");
-      System.out.println("Shape : " + clonedShape.getType());		
+      ShapeType Shape1 = ShapeCache.getShape("1");
 
-      Shape clonedShape2 = (Shape) ShapeCache.getShape("2");
-      System.out.println("Shape : " + clonedShape2.getType());		
+      Shape orginalShape1 = Shape1.shape1;
+      Shape clonedShape1 = Shape1.shape2;
 
-      Shape clonedShape3 = (Shape) ShapeCache.getShape("3");
-      System.out.println("Shape : " + clonedShape3.getType());		
+      System.out.println("orignal Shape Color:" + orginalShape1.color + " cloned Shape Color:" + clonedShape1.color);
+      System.out.println( "equals:" + orginalShape1.equals(clonedShape1));
+      System.out.println("orignal object address:" +orginalShape1 +"cloned object address:"+clonedShape1);
+
+      ShapeType Shape2 = ShapeCache.getShape("1");
+
+      ShapeType Shape3 = ShapeCache.getShape("1");
+
    }
 }

@@ -2,6 +2,8 @@ package GOF.Lab7.Protoype;
 
 public class Rectangle extends Shape {
 
+
+   public Rectangle(){}
    public Rectangle(Shape target) {
 
       super(target);
