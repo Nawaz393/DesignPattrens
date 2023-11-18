@@ -6,7 +6,9 @@ public class FacadePatternDemo {
 
       shapeMaker.drawCircle("Red,Green,Blue");
       shapeMaker.drawRectangle("Red,Green,Blue");
-      shapeMaker.drawSquare("Red,Green,Blue");		
+      shapeMaker.drawSquare("Red,Green,Blue");
       shapeMaker.drawTriangle("Red,Green,Blue");
+      shapeMaker.drawHexagone("Red,Green,Blue");
+
    }
 }

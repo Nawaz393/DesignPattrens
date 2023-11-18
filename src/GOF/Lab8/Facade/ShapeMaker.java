@@ -1,16 +1,14 @@
 package GOF.Lab8.Facade;
 
 public class ShapeMaker {
-   private Shape circle;
-   private Shape rectangle;
-   private Shape square;
-   private Shape triangle;
+   private Shape circle, rectangle, square, triangle, hexagone;
 
    public ShapeMaker() {
       circle = new Circle();
       rectangle = new Rectangle();
       square = new Square();
       triangle = new Triangle();
+      hexagone = new Hexagone();
 
    }
 
@@ -29,5 +27,10 @@ public class ShapeMaker {
    public void drawTriangle(String data) {
 
       triangle.draw(data);
+   }
+
+   public void drawHexagone(String data) {
+
+      hexagone.draw(data);
    }
 }
