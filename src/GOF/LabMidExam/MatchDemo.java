@@ -8,7 +8,7 @@ public class MatchDemo {
         List<Match> matches = createSampleMatches();
 
         Scanner scanner = new Scanner(System.in);
-        
+
         do {
             // Display the list of available matches
             System.out.println("Available Matches:");
@@ -46,11 +46,11 @@ public class MatchDemo {
                     } catch (InterruptedException e) {
                         // TODO Auto-generated catch block
                         e.printStackTrace();
-                    } 
+                    }
                 }
             } else if (matchNumber == -1) {
                 System.out.println("Exiting the program.");
-                break; 
+                break;
             } else {
                 System.out.println("Invalid match selection.");
             }
