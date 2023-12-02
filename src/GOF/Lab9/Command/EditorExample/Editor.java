@@ -9,6 +9,7 @@ public class Editor {
     public JTextArea textField;
     public String clipboard;
     private CommandHistory history = new CommandHistory();
+    private CommandForwardHistory forwardhistory = new CommandForwardHistory();
 
     public void init() {
         JFrame frame = new JFrame("Text editor (type & use buttons, Luke!)");
@@ -24,7 +25,7 @@ public class Editor {
         JButton ctrlX = new JButton("Ctrl+X");
         JButton ctrlV = new JButton("Ctrl+V");
         JButton ctrlZ = new JButton("Ctrl+Z");
-        JButton ctrlY=new JButton("Ctrl+Y");
+        JButton ctrlY = new JButton("Ctrl+Y");
         Editor editor = this;
         ctrlC.addActionListener(new ActionListener() {
             @Override
@@ -51,17 +52,13 @@ public class Editor {
             }
         });
 
-    
+        ctrlY.addActionListener(new ActionListener() {
 
+            public void actionPerformed(ActionEvent e) {
 
-
-            ctrlY.addActionListener(new ActionListener() {
-
-            public void actionPerformed(ActionEvent e){
-
-                
+                redo();
             }
-            
+
         });
         buttons.add(ctrlC);
         buttons.add(ctrlX);
@@ -83,13 +80,29 @@ public class Editor {
 
     private void undo() {
 
+        if (history.isEmpty())
+            return;
 
-
-        if (history.isEmpty()) return;
 
         Command command = history.pop();
+        forwardhistory.push(command);
         if (command != null) {
             command.undo();
         }
+    }
+
+    private void redo() {
+System.out.println("hello");
+        if (forwardhistory.isEmpty())
+            return;
+
+        Command command = forwardhistory.pop();
+
+        if (command != null) {
+
+            command.undo();
+
+        }
+
     }
 }

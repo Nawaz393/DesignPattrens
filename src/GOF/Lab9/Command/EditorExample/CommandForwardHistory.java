@@ -4,16 +4,12 @@ import java.util.Stack;
 
 public class CommandForwardHistory {
 
-    CommandHistory commandHistory;
-    public CommandForwardHistory(CommandHistory commandHistory) {
-        this.commandHistory = commandHistory;
 
-    }
 
     private Stack<Command> history = new Stack<>();
 
     public void push(Command c) {
-        
+
         history.push(c);
     }
 
