@@ -21,11 +21,12 @@ public class PlayingState extends State {
 
     @Override
     public String onNext() {
-        return player.nextTrack();
+      
+        return player.iter.next();
     }
 
     @Override
     public String onPrevious() {
-        return player.previousTrack();
+        return player.iter.previous();
     }
 }

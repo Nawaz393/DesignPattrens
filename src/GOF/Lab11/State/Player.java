@@ -3,11 +3,12 @@ package GOF.Lab11.State;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Player {
+public class Player implements Container {
     private State state;
     private boolean playing = false;
     private List<String> playlist = new ArrayList<>();
     private int currentTrack = 0;
+    public Iterator iter;
 
     public Player() {
         this.state = new ReadyState(this);
@@ -15,6 +16,9 @@ public class Player {
         for (int i = 1; i <= 12; i++) {
             playlist.add("Track " + i);
         }
+
+        iter = this.getIterator();
+
     }
 
     public void changeState(State state) {
@@ -55,5 +59,15 @@ public class Player {
 
     public void setCurrentTrackAfterStop() {
         this.currentTrack = 0;
+    }
+
+    public List<String> getPlayList() {
+
+        return this.playlist;
+    }
+
+    @Override
+    public TrackIterator getIterator() {
+        return new TrackIterator(this);
     }
 }
