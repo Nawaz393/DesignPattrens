@@ -9,7 +9,6 @@ public class InterpreterPatternDemo {
       return new OrExpression(robert, john);
    }
 
-   // Rule: Julie is a married women
    public static Expression getMarriedWomanExpression() {
       Expression julie = new TerminalExpression("Julie");
       Expression married = new TerminalExpression("Married");
@@ -22,7 +21,6 @@ public class InterpreterPatternDemo {
       return new SonExpression(stuart, robert);
    }
 
-   // Rule: Samantha is daughter of Julie
    public static Expression getDaughterExpression() {
       Expression samantha = new TerminalExpression("Samantha");
       Expression julie = new TerminalExpression("Julie");
@@ -37,7 +35,8 @@ public class InterpreterPatternDemo {
 
       System.out.println("John is male? " + isMale.interpret("John"));
       System.out.println("Julie is a married women? " + isMarriedWoman.interpret("Married Julie"));
-       System.out.println("Stuart is son of Robert?" + isSonExpression.interpret("Stuart is son of Robert"));
-      System.out.println("Samantha is Daugther of Julie? " + isDaughterExpression.interpret("Samantha is Daugther of Julie"));
+      System.out.println("Stuart is son of Robert?" + isSonExpression.interpret("Stuart is son of Robert"));
+      System.out.println(
+            "Samantha is Daugther of Julie? " + isDaughterExpression.interpret("Samantha is Daugther of Julie"));
    }
 }
