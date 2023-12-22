@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added observer and singleton" />
+    <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added observer and singleton">
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/CircleGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Geometery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/ShapeGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/SquareGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/GithubExample/TriangleGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/HtmlDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/RefactoringGuru/WindowsDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/CityPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/PersonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/Villager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Ac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Ac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/AdvancedRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/AdvancedRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/BasicRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/BasicRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Remote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/Tv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/UniversalRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/Bridge/UniversalRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/HtmlButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/HtmlDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WindowsDialog.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -30,22 +73,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "G:/java/DesignPatterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Lab2.Observer.test">
-    <configuration name="ApiReqHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.AdvancedConcepts.ApiReqHandler" />
+}]]></component>
+  <component name="RunManager" selected="Application.GOF.Lab13.FactoryMethod.GithubExample.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Lab13.FactoryMethod.RefactoringGuru.Demo" />
       <module name="DesignPattrens" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab1.AdvancedConcepts.*" />
+          <option name="PATTERN" value="GOF.Lab13.FactoryMethod.RefactoringGuru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GOF.Lab13.Bridge.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Lab13.Bridge.Demo" />
+      <module name="DesignPattrens" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Lab13.Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GOF.Lab13.FactoryMethod.GithubExample.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.Lab13.FactoryMethod.GithubExample.Demo" />
+      <module name="DesignPattrens" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GOF.Lab13.FactoryMethod.GithubExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,9 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GOF.Lab13.FactoryMethod.GithubExample.Demo" />
+        <item itemvalue="Application.GOF.Lab13.Bridge.Demo" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Lab2.Observer.test" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.ApiReqHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +178,7 @@
       <workItem from="1695485594950" duration="6262000" />
       <workItem from="1696564036920" duration="204000" />
       <workItem from="1697168397031" duration="383000" />
+      <workItem from="1703216749852" duration="3480000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1694751519602</created>

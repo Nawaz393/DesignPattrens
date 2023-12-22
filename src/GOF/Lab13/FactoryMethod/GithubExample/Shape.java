@@ -1,2 +1,5 @@
-package GOF.Lab13.FactoryMethod.GithubExample;public class Shape {
+package GOF.Lab13.FactoryMethod.GithubExample;
+
+public interface Shape {
+    void draw();
 }

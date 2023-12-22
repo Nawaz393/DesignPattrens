@@ -1,4 +1,4 @@
-package GOF.Lab13.FactoryMethod;
+package GOF.Lab13.FactoryMethod.RefactoringGuru;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package GOF.Lab13.FactoryMethod;
+package GOF.Lab13.FactoryMethod.GithubExample;
 
 public class Circle implements Shape{
     @Override

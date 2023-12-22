@@ -1,4 +1,4 @@
-package GOF.Lab13.FactoryMethod;
+package GOF.Lab13.FactoryMethod.RefactoringGuru;
 
 public class HtmlButton implements Button {
 
