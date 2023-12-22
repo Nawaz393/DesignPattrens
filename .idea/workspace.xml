@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added observer and singleton">
-      <change afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/Lab12/Memento/classdiagram.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/PersonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOF/Lab13/FactoryMethod/WikipediaExample/PersonFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,7 @@
       <workItem from="1695485594950" duration="6262000" />
       <workItem from="1696564036920" duration="204000" />
       <workItem from="1697168397031" duration="383000" />
-      <workItem from="1703216749852" duration="4192000" />
+      <workItem from="1703216749852" duration="5705000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1694751519602</created>
@@ -180,11 +179,45 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
