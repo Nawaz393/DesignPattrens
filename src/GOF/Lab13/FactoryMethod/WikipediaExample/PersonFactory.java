@@ -5,8 +5,9 @@ public class PersonFactory {
 public  IPerson getPerson (PersonType type){
 
     return  switch (type){
-        case Rural -> new
-    }
+        case Rural -> new Villager();
+        case Urban -> new CityPerson();
+    };
 }
 
 }
