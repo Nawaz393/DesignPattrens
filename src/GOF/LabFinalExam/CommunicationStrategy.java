@@ -1,2 +1,5 @@
-package GOF.LabFinalExam;public class CommunicationStrategy {
+package GOF.LabFinalExam;
+
+public interface CommunicationStrategy {
+    void executeStrategy(Message message);
 }

@@ -5,6 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a892a750-44fe-4800-adab-6220d40e90d8" name="Changes" comment="added observer and singleton">
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/CommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/ConcreteMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/MessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/NormalCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/NotificationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/SevereCommunication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Stakeholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/SystemFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOF/LabFinalExam/class.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,23 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "G:/java/DesignPatterns",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/java/DesignPatterns&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.GOF.Lab13.FactoryMethod.WikipediaExample.Demo">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="GOF.LabFinalExam" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GOF.LabFinalExam.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GOF.Lab13.FactoryMethod.RefactoringGuru.Demo" />
       <module name="DesignPattrens" />
@@ -105,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab2.Observer.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.Observer.test" />
+    <configuration name="GOF.LabFinalExam.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GOF.LabFinalExam.Demo" />
       <module name="DesignPattrens" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.Observer.*" />
+          <option name="PATTERN" value="GOF.LabFinalExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GOF.LabFinalExam.Demo" />
         <item itemvalue="Application.GOF.Lab13.FactoryMethod.WikipediaExample.Demo" />
         <item itemvalue="Application.GOF.Lab13.FactoryMethod.GithubExample.Demo" />
         <item itemvalue="Application.GOF.Lab13.Bridge.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Lab2.Observer.test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +167,8 @@
       <workItem from="1696564036920" duration="204000" />
       <workItem from="1697168397031" duration="383000" />
       <workItem from="1703216749852" duration="7589000" />
+      <workItem from="1703820530530" duration="357000" />
+      <workItem from="1703820900542" duration="4567000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1694751519602</created>
